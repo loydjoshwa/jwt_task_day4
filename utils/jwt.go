@@ -14,7 +14,7 @@ var (
 
 func GenarateAccessToken(userId uint, role string) (string, error) {
 	claims := jwt.MapClaims{
-		"usre_id": userId,
+		"user_id": userId,
 		"role":    role,
 		"exp":     time.Now().Add(time.Minute * 15).Unix(),
 	}
