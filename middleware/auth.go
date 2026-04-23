@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"myapp/utils"
+	"day4/utils"
 	"strings"
 
-	"github.com/dgrijalva/jwt-go"
+	"github.com/golang-jwt/jwt/v5"
 	"github.com/gin-gonic/gin"
 )
 

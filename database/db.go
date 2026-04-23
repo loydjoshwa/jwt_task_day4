@@ -3,7 +3,7 @@ package database
 import (
 	"fmt"
 	"log"
-	"myapp/models"
+	"day4/models"
 	"os"
 
 	"gorm.io/driver/postgres"

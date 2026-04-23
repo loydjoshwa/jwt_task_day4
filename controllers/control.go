@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"myapp/database"
-	"myapp/models"
-	"myapp/utils"
+	"day4/database"
+	"day4/models"
+	"day4/utils"
 
 	"github.com/gin-gonic/gin"
 )
